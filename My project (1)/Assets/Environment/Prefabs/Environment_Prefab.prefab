@@ -454,26 +454,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3def1a4128df194897c41b48d805bf1, type: 3}
---- !u!1 &3803943987485356681 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c3def1a4128df194897c41b48d805bf1,
-    type: 3}
-  m_PrefabInstance: {fileID: 4038386597798940632}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &5389681820159361751
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3803943987485356681}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6283413885930940904, guid: c3def1a4128df194897c41b48d805bf1, type: 3}
 --- !u!4 &4576081957657274419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c3def1a4128df194897c41b48d805bf1,
@@ -574,26 +554,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3def1a4128df194897c41b48d805bf1, type: 3}
---- !u!1 &4814446817371114531 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c3def1a4128df194897c41b48d805bf1,
-    type: 3}
-  m_PrefabInstance: {fileID: 5625330249327145330}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &6850533630705826524
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4814446817371114531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6283413885930940904, guid: c3def1a4128df194897c41b48d805bf1, type: 3}
 --- !u!4 &5303984116559648409 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c3def1a4128df194897c41b48d805bf1,
