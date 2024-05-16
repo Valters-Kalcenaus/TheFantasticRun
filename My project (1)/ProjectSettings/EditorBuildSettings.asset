@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Playground.unity
+    path: Assets/Scenes/Startmenu.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
+  - enabled: 1
+    path: Assets/Scenes/Lore.unity
+    guid: f4115b008fe8b4648a3a6f7c3e19d024
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: bb5ef32a8f10474448b9672fe71a158b
+  - enabled: 1
+    path: Assets/Scenes/YouLOST.unity
+    guid: afd4197dbc4cd724dad573af10434a35
+  - enabled: 1
+    path: Assets/Scenes/YouWON.unity
+    guid: 31c3375775ebf86428c6f58b07aba87e
+  - enabled: 1
+    path: Assets/Scenes/OfPage.unity
+    guid: 267b37f772a8a1d4b8c030f2998a25db
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}

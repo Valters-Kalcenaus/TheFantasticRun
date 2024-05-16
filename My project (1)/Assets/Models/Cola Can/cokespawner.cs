@@ -4,20 +4,23 @@ public class cokespawner : MonoBehaviour
 {
     public GameObject collectiblePrefab; 
     public Transform spawnPointsParent; 
+    public int numberOfCokes = 2; 
 
     void Start()
     {
-        SpawnCollectible();
+        SpawnCollectibles();
     }
 
-    void SpawnCollectible()
+    void SpawnCollectibles()
     {
         Transform[] spawnPoints = spawnPointsParent.GetComponentsInChildren<Transform>();
 
-        int spawnIndex = Random.Range(1, spawnPoints.Length);
-        Transform spawnPoint = spawnPoints[spawnIndex];
+        for (int i = 0; i < numberOfCokes; i++)
+        {
+            int spawnIndex = Random.Range(1, spawnPoints.Length);
+            Transform spawnPoint = spawnPoints[spawnIndex];
 
-        Instantiate(collectiblePrefab, spawnPoint.position, spawnPoint.rotation);
+            Instantiate(collectiblePrefab, spawnPoint.position, spawnPoint.rotation);
+        }
     }
 }
-

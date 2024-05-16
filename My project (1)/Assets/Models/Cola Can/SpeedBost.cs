@@ -11,12 +11,13 @@ public class SpeedBost : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            gameObject.SetActive(false);
 
             AudioSource.PlayClipAtPoint(consumptionSound, transform.position);
 
             other.GetComponent<FirstPersonController>().IncreaseSpeed(speedMultiplier, boostDuration);
 
-            gameObject.SetActive(false);
+            
         }
     }
 }

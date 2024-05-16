@@ -55,7 +55,7 @@ namespace StarterAssets
         [Header("Grappling")]
         public bool canGrapple = false;
         private bool isGrappling;
-        private bool canMove = true; // This is used to disable movement while grappling
+        private bool canMove = true; // This is used to disable movement while climbing
         private Coroutine grappleCoroutine;
         public float grappleTimeout = 2f;
         public float grappleSpeed = 5.0f;
